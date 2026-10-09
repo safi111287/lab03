@@ -46,6 +46,11 @@ The program downloads the records, prints the summary, and saves it to:
 ```text
 data/processed/summary.json
 ```
+To view the generated summary on Windows:
+
+```bash
+notepad data\processed\summary.json
+```
 
 The output contains:
 
@@ -67,6 +72,12 @@ python -m unittest discover -s tests
 ```
 
 The three tests in `tests/test_models.py` exercise the Show class using handmade records. They cover valid records, missing values, and malformed values. They do not make network requests.
+
+When finished, optionally deactivate the environment:
+
+```bash
+conda deactivate
+```
 
 ## Layout
 
