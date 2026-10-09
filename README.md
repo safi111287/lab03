@@ -18,10 +18,10 @@ Install Anaconda or Miniconda and Git first.
 Clone the repository and enter its folder:
 
 ```bash
-git clone https://github.com/safi111287/lab03.git
+git clone https://github.com/safi111287/lab03.git test-lab03-clone
 ```
 ```bash
-cd lab03
+cd test-lab03-clone
 ```
 
 Create and activate the environment, install the pinned dependencies, and install the package:
