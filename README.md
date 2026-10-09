@@ -19,6 +19,8 @@ Clone the repository and enter its folder:
 
 ```bash
 git clone https://github.com/safi111287/lab03.git
+```
+```bash
 cd lab03
 ```
 
